@@ -1,0 +1,167 @@
+/* All Elements */
+body{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+body,
+button{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Style */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Left Menu Stle */
+
+.snap-text{
+  font-weight: bold;
+  font-size: 42px;
+}
+/* Right Menu Style */
+
+.register-btn{
+  background-color: white;
+  border: solid black 2px;
+  padding: 12px 65px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 15px;
+}
+
+
+/* Main Style*/
+
+.learn-more-text{
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.sect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.learn-more-btn{
+  border: solid black 1px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 14px 24px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.client-logos-container{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.client-logo{
+  width: 75px;
+  margin-right: 18px;
+  margin-top: 30px;
+}
+
+.desc-text{
+  font-size: 17px;
+  color: hsl(0, 0%, 41%);
+  font-weight: bold;
+  width: 370px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.logo{
+  width: 400px;
+  margin-top: 20px;
+}
+
+.right-bar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border: none;
+  background-color: white;
+  width: 250px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.right-bar-container{
+  margin-left: 25px;
+}
+.left-modal{
+  position: fixed;
+  border: none;
+  background-color: rgba(0,0,0,0.8);
+  width: 150px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+.close-icon-container{
+  display: flex;
+  width: 30px;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+.close-icon{
+  width: 30px;
+}
+.menu-text{
+  font-size: 15px;
+  color: hsl(0, 0%, 41%);
+  font-weight: bold;
+  margin: 0;
+  margin-right: 10px;
+}
+.text-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.text-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.active-container{
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  margin-left: 10px;
+}
+.active-menu-svg{
+  margin-right: 10px;
+}
