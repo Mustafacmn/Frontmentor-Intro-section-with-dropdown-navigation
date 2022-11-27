@@ -1,0 +1,135 @@
+<!--
+  TODO:
+  - Place navs in container so they can change together with DOM manipulation
+  - After you finish desktop design make plan for mobile.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+
+    <section class="left-menu">
+      <!-- Left top menu -->
+      <div class="left-menu-div" style="cursor:auto;">
+        <p class="snap-text">snap</p>
+      </div>
+      <div id="test" class="left-menu-div">
+        <div class="features-wrapper" id="features">
+          <p class="header-text" id="features">Features</p>
+          <div style="position: relative;">
+            <img id="down-arrow" src="images/icon-arrow-down.svg" alt="">
+            <div class="img-wrapper" id="img-wrapper">
+              <img src="images/icon-arrow-up.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- Active menu start -->
+        <div class="features-active" id="features-active">
+          <div class="container-wrapper">
+            <div class="features-container">
+              <img class="features-svg" src="images/icon-todo.svg" alt="">
+              <p class="features-text">Todo List</p>
+            </div>
+            <div class="features-container">
+              <img class="features-svg" src="images//icon-calendar.svg" alt="">
+              <p class="features-text">Calendar</p>
+            </div>
+            <div class="features-container">
+              <img class="features-svg" src="images/icon-reminders.svg" alt="">
+              <p class="features-text">Reminders</p>
+            </div>
+            <div class="features-container">
+              <img class="features-svg" src="images/icon-planning.svg" alt="">
+              <p class="features-text">Planning</p>
+            </div>
+          </div>
+        </div>
+        <!-- Active menu end -->
+      </div>
+      <div class="left-menu-div">
+        <div class="company-wrapper" id="company">
+          <p class="header-text">Company</p>
+          <div style="position: relative;">
+            <img id="down-arrow2" src="images/icon-arrow-down.svg" alt="">
+            <div class="img-wrapper2" id="img-wrapper2">
+              <img src="images/icon-arrow-up.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- Active menu start -->
+        <div class="company-active" id="company-active">
+          <div class="container-wrapper">
+            <div class="features-container">
+              <p class="features-text">History</p>
+            </div>
+            <div class="features-container">
+              <p class="features-text">Our Team</p>
+            </div>
+            <div class="features-container">
+              <p class="features-text">Blog</p>
+            </div>
+          </div>
+        </div>
+        <!-- Active menu end -->
+      </div>
+      <div class="left-menu-div">
+        <p class="header-text">Careers</p>
+      </div>
+      <div class="left-menu-div">
+        <p class="header-text">About</p>
+      </div>
+    </section>
+
+    <section class="right-menu">
+      <!-- Right top menu -->
+      <div>
+        <p class="header-text">Login</p>
+      </div>
+      <div>
+        <button class="register-btn">Register</button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="sect">
+      <!-- Learn more section -->
+      <div class="learn-more-container">
+        <p class="learn-more-text">Make</p>
+        <p class="learn-more-text">remote work</p>
+        <div>
+          <p class="desc-text">Get your team in sync, no matter your location. Stremline processes, create team rituals, and watch productivity soar.</p>
+        </div>
+        <div class="button-container">
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        <section>
+          <!-- Client Logos -->
+          <div class="client-logos-container">
+            <img class="client-logos" src="images/client-databiz.svg" alt="">
+            <img class="client-logos" src="images/client-audiophile.svg" alt="">
+            <img class="client-logos" src="images/client-meet.svg" alt="">
+            <img class="client-logos" src="images/client-maker.svg" alt="">
+          </div>
+        </section>
+      </div>
+
+      <figure>
+        <img class="right-img" src="images/image-hero-desktop.png" alt="">
+      </figure>
+    </section>
+  </main>
+ 
+<script src="script.js"></script>
+</body>
+</html>
