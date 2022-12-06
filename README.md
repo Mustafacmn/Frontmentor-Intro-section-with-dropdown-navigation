@@ -33,11 +33,8 @@ Users should be able to:
 
 ![](Screenshots/Desktop.png)
 
-![](Screenshots/Desktop-active.png)
-
 ![](Screenshots/mobile.png)
-![](Screenshots/mobile-menu.png)
-![](Screenshots/mobile-menu-active.png)
+
 
 ### Links
 
